@@ -4,7 +4,7 @@ This scripts allows you to execute slack command from AWS lambda function.
 
 # How to use
 
-1. Set lambda runtime 'Python 3.x'
+1. Set lambda runtime `Python 3.x`
 1. Deploy these two python files to AWS lambda.
 1. Change lambda handler name as `handler.handler`
 1. Set environment variables as you like. (See below)
