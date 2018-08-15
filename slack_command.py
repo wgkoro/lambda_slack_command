@@ -17,7 +17,6 @@ def execute_command(token, channel_id, command):
         'command' : params_command,
         'text'  : text
     }
-    print(params)
 
     req = urllib.request.Request('{}?{}'.format(API_COMMAND_URL, urllib.parse.urlencode(params)))
     with urllib.request.urlopen(req) as res:
